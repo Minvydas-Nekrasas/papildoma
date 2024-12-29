@@ -19,8 +19,8 @@ void create_cross_reference(const string& input_filename, const string& output_f
         return;
     }
 
-    map<std::string, std::set<int>> word_lines;
-    map<std::string, int> word_count;
+    map<string, set<int>> word_lines;
+    map<string, int> word_count;
     string line;
     int line_number = 0;
 

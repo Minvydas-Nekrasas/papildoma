@@ -1,10 +1,9 @@
 #include "pagalbines.h"
 
-
 int main() {
     ifstream input("tekstas.txt");
     if (!input) {
-        std::cerr << "Nepavyko atidaryti failo tekstas.txt\n";
+        cerr << "Nepavyko atidaryti failo tekstas.txt\n";
         return 1;
     }
 
