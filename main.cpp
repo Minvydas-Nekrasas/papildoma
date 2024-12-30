@@ -41,6 +41,9 @@ int main() {
 
     // Sukurti kryžminės nuorodos lentelę
     create_cross_reference("tekstas.txt", "cross_reference.txt");
+    
+    // Surasti ir išvesti URL adresus
+    extract_urls_from_file("tekstas.txt", "urls.txt");
 
     return 0;
 }
