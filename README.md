@@ -5,7 +5,8 @@ Tai yra C++ programa, kuri apskaičiuoja kiek kartų pasikartoja žodžiai ir i�
 1. [Funkcionalumas](#funkcionalumas)
 2. [Failų Struktūra](#failų-struktūra)
 3. [Kompiliavimas ir Paleidimas](#kompiliavimas-ir-paleidimas)
-4. [Naudojimas](#naudojimas)
+4. [Reikalavimai](#reikalavimai)
+5. [Rezultatai](#rezultatai)
 ## Funkcionalumas
 1. **Žodžių skaičiavimas**  
    Programa analizuoja failą `tekstas.txt` ir suskaičiuoja, kiek kartų kiekvienas žodis pasikartoja. Rezultatai išsaugomi faile `rezultatai.txt`.  
@@ -35,6 +36,19 @@ Projektas suskirstytas į kelis failus, kad būtų lengviau tvarkyti kodą:
 >```bash
 >./zodziai
 >```
-### Reikalavimai:  
+## Reikalavimai:  
 - Įdiegtas C++ kompiliatorius (pvz., GCC arba MSVC).  
-- Tekstas turi būti pateiktas faile `tekstas.txt` ir `url-tekstas.txt`. 
+- Tekstas turi būti pateiktas faile `tekstas.txt` ir `url-tekstas.txt`.
+
+## Rezultatai:
+`rezultatai.txt`:
+
+![image](https://github.com/user-attachments/assets/013ef4be-fc50-4512-8be7-ffd95a1e97f2)
+
+`cross_reference.txt`:
+
+![Screenshot 2024-12-30 164517](https://github.com/user-attachments/assets/921196f8-ca54-4501-8130-08f8895a99a5)
+
+`urls.txt`:
+
+![Screenshot 2024-12-30 164549](https://github.com/user-attachments/assets/240a64f6-014d-4c53-83fb-ec5344641e34)
